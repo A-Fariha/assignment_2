@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>Car Rental Website</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/mystylesheet.css') }}"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+    <div id="page">
+        <div id="header">
+		<a href="/about"  class="btn btn-primary" >About</a>
+         
+        </div>
+		<h1 style="color: white; margin: 100px 25% 100px;"> BOOK HERE AND PLEASE WAIT FOR OUR CALL</h1>
+        <div id="form">
+            <div class="card-body" style="padding-top: 1in;">
+                <form  action = "/submit" method = "get" style="margin: 10px 33% 10px;">
+                    <p style="text-align: justify; color: white;">
+                        Name: <input type="string" step="0.01" class="form-control" name = "NAME" /></br>
+                        Email: <input type="string" step="0.01" class="form-control" name = "EMAIL" /></br>
+                        Mobile: <input type = "string" step="0.01" class="form-control" name = "MOBILE" /></br>
+						Comment: <input type = "string" step="0.01" class="form-control" name = "COMMENT" /></br>
+                    </p>
+                    <p><input type = "submit" class="btn btn-primary mb-2" value = "submit" /></p>    
+            </div>
+            <div class="card-footer text-muted">
+                <h2 style="margin: 10px 30% 10px;color: red;">SHOW: {{name}}</h2>   
+            </div>
+        </div>
+        <div id="body" class="home">
+            <div class="header">
+                <div>
+
+                </div>
+				
+                
+            </div>
+        </div>
+    </div>
+	<div id="abcdef"  class="about">
+		<div class="header">
+		<h3 style="color: black;"> 
+			For More Requirements</br>
+			Call US</br>
+			01754 298 028</br>
+			01820 846 289</br></br>
+			
+			Email Us</br>
+			hello@bdrental.com.bd</br></br>
+
+			Our Office</br>
+			BD Rental 3rd Floor - 38/A, Dhanmondi 9/A, Dhaka 1209</br> ​
+		</h3>
+		</div>
+</body>

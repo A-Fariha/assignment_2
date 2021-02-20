@@ -1,0 +1,68 @@
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: auto;
+}
+body #page {
+	background:black;
+	
+	margin: 0;
+	overflow: hidden;
+	padding: 150px;
+	width: auto;
+	z-index: 3;
+}
+
+
+body #abcd {
+	background: green;
+	margin: 100;
+	overflow: hidden;
+	padding: 150px;
+	width: auto;
+	z-index: 3;
+}
+
+body #abcde {
+	background: url("images/20.jpg") no-repeat;
+	margin: 100;
+	
+	overflow: hidden;
+	padding: 450px;
+	width: auto;
+	z-index: 3;
+}
+body #abcdef {
+	background: url("images/31.jpg");
+	margin: 100;
+	
+	overflow: hidden;
+	padding: 350px;
+	width: auto;
+	z-index: 3;
+}
+
+body #Car_Model {
+	background: url("images/200.jpg") no-repeat;
+	margin: 100;
+	
+	overflow: hidden;
+	padding:430px;
+	width: auto;
+	z-index: 3;
+}
+
+body #Car_Model1 {
+	background: url("images/401.jpg") no-repeat;
+	margin: 0;
+	
+	overflow: hidden;
+	padding:590px;
+	width: auto;
+	z-index: 3;
+}
+
+
+
+	
